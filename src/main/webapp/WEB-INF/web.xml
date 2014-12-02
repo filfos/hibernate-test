@@ -1,0 +1,19 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+    <servlet>
+        <servlet-name>Demo</servlet-name>
+        <servlet-class>org.hibernate.tutorial.Servlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+        <!--<init-param>-->
+            <!--<param-name></param-name>-->
+            <!--<param-value></param-value>-->
+        <!--</init-param>-->
+        <!--<jsp-file>/register/start.jsp</jsp-file>-->
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+</web-app>
