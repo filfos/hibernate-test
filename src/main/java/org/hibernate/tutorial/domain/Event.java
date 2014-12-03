@@ -13,10 +13,10 @@ public class Event {
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
 
-    @Column
+//    @Column()
     private String title;
 
-    @Column()
+//    @Column()
     private int children;
 
     @Temporal(TemporalType.TIMESTAMP)
